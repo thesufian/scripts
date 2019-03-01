@@ -23,7 +23,7 @@ WHERE
     t.NAME NOT LIKE 'dt%' 
     AND t.is_ms_shipped = 0
     AND i.OBJECT_ID > 255 
-	--and t.name not like '%_archive'
+	and t.name not like '%_archive'
 GROUP BY 
     t.Name, s.Name, p.Rows
 ORDER BY     

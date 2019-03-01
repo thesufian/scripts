@@ -1,4 +1,4 @@
-DECLARE @Database VARCHAR(255)   =<db-name>
+DECLARE @Database VARCHAR(255)   ='<DATABASE_NAME>'
 DECLARE @Table VARCHAR(255)  
 DECLARE @cmd NVARCHAR(500)  
 DECLARE @fillfactor INT 
